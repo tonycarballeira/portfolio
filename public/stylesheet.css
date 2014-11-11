@@ -62,30 +62,38 @@ h1 {
 	font-family:visitor;
 }
 
-h3 {
+#link {
 	position:absolute;
 	color:#EE77AD;
-	left:645px;
-	top:320px;
+	left:565px;
+	top:370px;
 	font-family: blade;
 }
 
-h4{
+#tech {
 	position:absolute;
 	color:#EE77AD;
 	left:645px;
 	top:320px;
 	font-family: blade;
-	left:35px;
+	left:50px;
 	top:20px;
 	width:300px;
 }
 
-a {
+#github {
 	position:absolute;
-	color:#A15D63;
-	left:760px;
-	top:395px;
+	color:#6E7C2C;
+	left:660px;
+	top:420px;
+}
+
+#contact {
+	position:absolute;
+	color:#EE77AD;
+	left:595px;
+	top:460px;
+	font-family: blade;
 }
 
 ul {
@@ -102,6 +110,41 @@ div {
 	width:100px;
 }
 
-a:hover{
-	background-color:#6E7C2C; 
+#github:hover{
+	color:#EE77AD; 
+}
+
+#email{
+	position:absolute;
+	left:690px;
+	top:510px;
+	color:#6E7C2C;
+}
+
+#email:hover {
+	color:#EE77AD;
+}
+
+#phone{
+	position:absolute;
+	left:770px;
+	top:520px;
+	color:#BC8A27;
+	font-family:visitor;
+}
+
+#add{
+	position:absolute;
+	left:750px;
+	top:500px;
+	color:#BC8A27;
+	font-family:visitor;
+}
+
+span {
+	color:white;
+}
+
+#diff {
+	color:#568BB6;
 }
